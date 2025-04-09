@@ -46,6 +46,40 @@ h3{
 .all-btn:hover{
     background-color: rgb(193, 65, 40);
 }
+.btn-2{
+    
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right:3rem;
+    background-color: var(--btn-color);
+    font-size:0.8rem;
+    color: var(--btn-text);
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1rem;
+}
+.btn-2:hover{
+    background-color: rgb(193, 65, 40);
+}
+.explore-btn{
+    padding: 0.5rem 3rem 1rem 1rem;
+    background-color: transparent;
+    font-size:0.8rem;
+    color: var(--btn-text);
+    border: 1px solid white;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1rem;
+}
+.explore-btn:hover{
+    background-color: white;
+    color: black; 
+    transform: scale(1.1);
+}
 .sub-title{
     font-size: var(--menu-link-size);
     color: var(--sub-heading);
@@ -406,11 +440,10 @@ nav{
     align-items: center;
     margin: 0 auto;
     position: relative;
-   
 }
 .holiday-content{
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 0 150px;
     position: relative;
 }
 .holiday-content h2{
@@ -449,40 +482,7 @@ nav{
     font-size: var(--menu-link-size);
     margin-bottom: 1rem;
 }
-.btn-2{
-    
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right:3rem;
-    background-color: var(--btn-color);
-    font-size:0.8rem;
-    color: var(--btn-text);
-    border: none;
-    border-radius: .5rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-bottom: 1rem;
-}
-.btn-2:hover{
-    background-color: rgb(193, 65, 40);
-}
-.explore-btn{
-    padding: 0.5rem 3rem 1rem 1rem;
-    background-color: transparent;
-    font-size:0.8rem;
-    color: var(--btn-text);
-    border: 1px solid white;
-    border-radius: .5rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin-bottom: 1rem;
-}
-.explore-btn:hover{
-    background-color: white;
-    color: black; 
-    transform: scale(1.1);
-}
+
 .tour-img{
     max-width: 80%;
     margin: 1rem 0;
@@ -495,7 +495,7 @@ nav{
 }
 /* Explore Design */
 .explore-section{
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
 }
 .explore-wrapper{
@@ -509,7 +509,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: calc(1440px / 2);
+    width: calc(100% / 2);
     background-image: url(images/Rectangle\ 19301.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -652,8 +652,7 @@ nav{
 }
 /* About Us Design */
 .about-us{
-    max-width: 1440px;
-    width: 100%;
+    max-width: 100%;
     margin: 2rem auto;
     background-image: url(images/h1-background-img-1\ 1.png);
     background-position: center;
@@ -736,7 +735,7 @@ nav{
 }
 /* Footer Design */
 footer{
-    max-width: 1440px;
+    max-width: 100%;
     padding: 5rem 0;
     margin: 2rem auto;
     background-image: url(images/Footer\ img.jpg);
