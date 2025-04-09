@@ -1,6 +1,7 @@
 /* Mobile Responsive */
 @media screen and (min-width:320px) and (max-width:767px){
-    .mobile {
+    /* Header + Hero Design */
+     .mobile {
         display: initial;
         position: absolute;
         top: 2rem;
@@ -38,6 +39,7 @@
       .peoples img{
         max-width: 100%;
       }
+       /* Service Design */
       .service-section{
         max-width: 100%;
         margin: 0;
@@ -46,9 +48,107 @@
         max-width: 90%;
       }
       .sub-title{
-        font-size: 1rem;
+        font-size: 0.7rem;
       }
       h2{
         font-size: 1.5rem;
+      }
+      .offers{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+      }
+      .offer-card:hover{
+        transform: scale(1.1);
+
+      }
+      .hover-img{
+        display: none;
+      }
+      /* Honeymoon Design */
+      .honeymoon-section{
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .honeymoon-wrapper{
+        max-width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 3rem;
+      }
+      .honeymoon-img{
+        width: 90%;
+        margin: 0 auto;
+      }
+      /* Booking Design */
+      .booking-section{
+        max-width: 100%;
+        justify-content: center;
+
+      }
+      .booking-wrapper{
+        max-width: 90%;
+        flex-direction: column;
+      }
+      /* Holiday Design */
+      .holiday-section{
+        display: none;
+      }
+      /* Tour Design */
+      .tour-section{
+        max-width: 100%;
+        padding: 0rem;
+        margin: 2rem auto;
+      }
+      .tour-wrapper{
+        max-width: 90%;
+        background: none;
+        margin: 0;
+      }
+      .tour-content{
+        max-width: 100%;
+      }
+      .tour-img{
+        max-width: 100%;
+      }
+      .tour-img img{
+        max-width: 80%;
+      }
+      /* Explore section */
+      .explore-wrapper{
+        flex-direction: column;
+        max-width: 100%;
+      }
+      .explore-left, .explore-right{
+        width: 100%;
+      }
+      /* Package Design */
+      .package-section{
+        max-width: 100%;
+      }
+      .package-wrapper{
+        max-width: 90%;
+
+      }
+      .package-grid{
+        grid-template-columns: repeat(1, 1fr);
+      }
+      /* About Us Design */
+      .about-us-content{
+        max-width: 100%;
+      }
+      .right-nav{
+        right: -40%;
+      }
+      /* Footer Section */
+      footer{
+        margin: 3rem 0;
+        padding: 1rem 0;
+      }
+      .footer-wrappe{
+        max-width: 90%;
+      }
+      .footer-grid-menu{
+        grid-template-columns: repeat(1, 1fr);
       }
 }
