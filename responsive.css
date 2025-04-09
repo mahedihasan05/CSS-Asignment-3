@@ -5,5 +5,50 @@
         position: absolute;
         top: 2rem;
         right: 2rem;
+        color: white;
+        font-size: 1.5rem;
+      }
+      nav{
+        max-width: 80%;
+      }
+      nav .all-btn{
+        display: none;
+      }
+      .nav-links{
+        display: none;
+      }
+      .hero-content{
+        max-width: 90%;
+      }
+      .hero-content h1{
+        font-size: 1.5rem;
+      }
+      .hero-form{
+        max-width: 100%;
+        padding: 0rem;
+      }
+      .hero-form span{
+        padding: 0;
+        gap: 0.5rem;
+        font-size: 0.7rem;
+      }
+      .peoples{
+        max-width: 100%;
+      }
+      .peoples img{
+        max-width: 100%;
+      }
+      .service-section{
+        max-width: 100%;
+        margin: 0;
+      }
+      .service-categories{
+        max-width: 90%;
+      }
+      .sub-title{
+        font-size: 1rem;
+      }
+      h2{
+        font-size: 1.5rem;
       }
 }
