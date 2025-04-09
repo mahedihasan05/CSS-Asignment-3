@@ -164,8 +164,6 @@ nav{
     flex-direction: column;
     gap: 1rem;
     min-height: calc(100vh - 35vh);
-    /* border: 5px solid red; */
-    /* align-items: center; */
     justify-content: center;
 }
 .vector{
@@ -230,6 +228,9 @@ nav{
 }
 .indicators span.active{
     background-color: var(--sub-heading);
+}
+.mobile{
+    display: none;
 }
 /* Partners Design */
 .partners-section{
@@ -450,24 +451,40 @@ nav{
     font-size: var(--menu-link-size);
     margin-bottom: 1rem;
 }
-/* .view-btn span{
-    display: block;
-    padding: 0.75rem 1.5rem;
-    position: absolute;
-} */
-/* .view-btn{
-    width: auto;
-    padding: 0.75rem 1.5rem;
+.btn-2{
+    
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right:3rem;
     background-color: var(--btn-color);
-    font-size: var(--menu-link-size);
+    font-size:0.8rem;
     color: var(--btn-text);
     border: none;
     border-radius: .5rem;
     cursor: pointer;
     transition: all 0.3s ease;
     margin-bottom: 1rem;
-    position: relative;
-} */
+}
+.btn-2:hover{
+    background-color: rgb(193, 65, 40);
+}
+.explore-btn{
+    padding: 0.5rem 3rem 1rem 1rem;
+    background-color: transparent;
+    font-size:0.8rem;
+    color: var(--btn-text);
+    border: 1px solid white;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1rem;
+}
+.explore-btn:hover{
+    background-color: white;
+    color: black; 
+    transform: scale(1.1);
+}
 .tour-img{
     max-width: 80%;
     margin: 1rem 0;

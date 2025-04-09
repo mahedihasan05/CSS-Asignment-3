@@ -1,4 +1,9 @@
 /* Mobile Responsive */
 @media screen and (min-width:320px) and (max-width:767px){
-    
+    .mobile {
+        display: initial;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+      }
 }
